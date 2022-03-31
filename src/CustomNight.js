@@ -81,7 +81,7 @@ const CustomNight = ({state, setStart}) => {
             state.ranges.Freddy === 1 &&
             state.ranges.Bonnie === 9 &&
             state.ranges.Chica === 8 &&
-            state.ranges.Foxy === 7
+            state.ranges.Foxy === 3
         ) {
             const golden = new Audio(goldenFreddyJumpscare);
             golden.play();
